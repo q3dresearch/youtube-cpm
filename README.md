@@ -34,6 +34,21 @@ What a creator keeps per 1,000 views, mostly US audience. This is our own estima
 | **gaming** | **$2 – $4.50** | 2 voters, same year | — |
 | **entertainment** | **$1 – $3** | 2 voters, same year | 8 |
 
+### What a video needs, 2026
+
+Views per video at which a **$435 standard edit + thumbnail** pays for itself. Sponsor rate is $ per 1,000 views for one 60–90 s integration.
+
+| niche | RPM | sponsor rate | pays with ads + a sponsor | pays with ads alone | one sponsor's share of income |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| finance | $18.50 | $35 – $60 | 7k views | 24k views | 72% |
+| business | $13.75 | $40 – $80 | 6k views | 32k views | 81% |
+| tech | $10.50 | $27.50 – $47.50 | 9k views | 41k views | 78% |
+| health | $8 | $29 – $65 | 8k views | 54k views | 85% |
+| education | $7.25 | $20 – $37.50 | 12k views | 60k views | 80% |
+| beauty | $4.25 | $18 – $35 | 14k views | 102k views | 86% |
+| gaming | $3.25 | $15 – $30 | 17k views | 134k views | 87% |
+| entertainment | $2 | $11.50 – $20 | 25k views | 218k views | 89% |
+
 ### The same index, every year
 
 Midpoint of the range, $ per 1,000 views. **—** means there was no evidence we could use that year, not a low rate.
@@ -70,7 +85,7 @@ Midpoint of the range, $ per 1,000 views. **—** means there was no evidence we
 
 ### Creators' own disclosures
 
-39 rows from 9 creators, each linked to the creator's own post. Below is each creator's latest RPM; every row (CPM, CTR, Shorts, earlier years) is in `data/<year>/creators.csv`.
+48 rows from 15 creators, each linked to the creator's own post. Below is each creator's latest RPM; every row (CPM, CTR, Shorts, earlier years) is in `data/<year>/creators.csv`.
 
 | year | creator | niche | metric | value | period | source |
 | ---: | --- | --- | --- | ---: | --- | --- |
@@ -85,6 +100,23 @@ Midpoint of the range, $ per 1,000 views. **—** means there was no evidence we
 <!-- tables:end -->
 
 ## What the numbers say
+
+![A $435 outsourced edit pays for itself at 24k views in finance, 218k in entertainment.](examples/charts/breakeven.svg)
+
+**Breakeven is set by the niche, not the channel size.** On AdSense alone, a standard
+outsourced edit ($220–650) pays for itself at 24k views a video in finance and 218k in
+entertainment. The creator's own time costs more than the editor: a 10-minute video takes
+40–100 hours, and at $25 an hour that is $1,000–2,500. Covering it takes 95k views a video
+in finance and 0.9M in entertainment. Q1 moves every crossing 18% to the right.
+
+![One sponsor is 72%–89% of a video's income; finance outgrows the need at 24k views.](examples/charts/sponsors.svg)
+
+**When you need sponsorships, and when you don't.** A sponsored integration pays 3–8x the
+niche's RPM per view, so one sponsor is 72–89% of a video's income in every niche. Below the
+amber zone nothing pays for an editor. Inside it, take the sponsor. Past the green edge, ads
+alone cover the video, and a sponsor that hurts it can be turned down. Gaming and
+entertainment need sponsors from 17–25k views up to 134–218k. Finance needs them only
+between 7k and 24k.
 
 ![Finance, health and tech: above-median pay, growing faster than YouTube's ad money.](examples/charts/niche-quadrant.svg)
 

@@ -48,6 +48,28 @@ def main():
                    f"{r.locator.replace('triangulated against ', '')} | {n or '—'} |")
     out.append("")
 
+    # 1b — unit economics per video, from the same estimates the breakeven plates use
+    cpv = b[(b.basis == "maintainer_estimate") & (b.metric == "cpv_brand") & (b.year == latest)].set_index("niche")
+    tiers = b[(b.basis == "maintainer_estimate") & (b.metric == "edit_cost") & (b.year == latest)]
+    std = tiers[tiers.notes.str.contains("tier=standard")]
+    if len(cpv) and len(std):
+        cost = std.iloc[0].mid
+        out += [f"### What a video needs, {latest}", "",
+                f"Views per video at which a **${cost:.0f} standard edit + thumbnail** pays for itself. "
+                f"Sponsor rate is $ per 1,000 views for one 60–90 s integration.", "",
+                "| niche | RPM | sponsor rate | pays with ads + a sponsor | pays with ads alone | "
+                "one sponsor's share of income |",
+                "| --- | ---: | ---: | ---: | ---: | ---: |"]
+        for r in now.itertuples():
+            if r.niche not in cpv.index:
+                continue
+            c_ = cpv.loc[r.niche]
+            both = cost / (r.mid + c_.mid) * 1000
+            alone = cost / r.mid * 1000
+            out.append(f"| {r.niche} | {money(r.mid)} | {rng(c_.low, c_.high)} | "
+                       f"{both/1e3:,.0f}k views | {alone/1e3:,.0f}k views | {c_.mid/(c_.mid+r.mid):.0%} |")
+        out.append("")
+
     # 2 — every year, midpoints, blank where there is no evidence
     piv = idx.pivot_table(index="niche", columns="year", values="mid")
     piv = piv.loc[piv[latest].dropna().sort_values(ascending=False).index.tolist() +

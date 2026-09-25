@@ -1,0 +1,3 @@
+year,as_of,creator,metric,niche,geo,low,high,point,currency,unit,period,views,revenue,basis,publisher,source_url,locator,notes
+2026,2026-09-21,Jeff Geerling,cpv_brand,tech,unknown,,,15.0,USD,per_1000_views,integration CPM (own rate),,,creator_report,"Jeff Geerling (GitHub geerlingguy/youtube, MIT)",https://github.com/geerlingguy/youtube,"Sponsorship rate ($15.00 CPM × V90): $4,700",repo MIT-licensed; auto-updated
+2026,2026-09-21,Jeff Geerling,sponsor_fee,tech,unknown,,,4700.0,USD,usd_per_video,"integration (own rate) at 313,473 avg views",,,creator_report,"Jeff Geerling (GitHub geerlingguy/youtube, MIT)",https://github.com/geerlingguy/youtube,"313K average views ÷ 1,000 × $15.00 CPM ≈ $4,700",V90 over 12 long-form videos; negotiable

@@ -22,7 +22,8 @@ BENCH = ["year", "as_of", "metric", "niche", "geo", "low", "high", "point", "cur
 CREATOR = ["year", "as_of", "creator", "metric", "niche", "geo", "low", "high", "point",
            "currency", "unit", "period", "views", "revenue", "basis", "publisher",
            "source_url", "locator", "notes"]
-METRICS = {"rpm", "cpm", "cpv_brand", "shorts_rpm", "impressions_ctr"}
+METRICS = {"rpm", "cpm", "cpv_brand", "shorts_rpm", "impressions_ctr", "sponsor_fee",
+           "production_hours", "production_hours_per_min", "production_cost", "edit_cost"}
 BASES = {"maintainer_estimate", "creator_report", "open_source", "platform_report"}
 
 

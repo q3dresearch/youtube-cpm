@@ -111,7 +111,8 @@ def main():
         f = load.DATA / str(year) / "benchmarks.csv"
         f.parent.mkdir(exist_ok=True)
         keep = pd.read_csv(f) if f.exists() else pd.DataFrame(columns=load.BENCH)
-        keep = keep[keep.basis != "maintainer_estimate"]
+        # only the rpm index is rebuilt here; hand-set estimates of other metrics are kept
+        keep = keep[~((keep.basis == "maintainer_estimate") & (keep.metric == "rpm"))]
         pd.concat([keep, out]).to_csv(f, index=False)
         written += len(out)
         print(f"  {year}: {len(out)} niches  " + ", ".join(
