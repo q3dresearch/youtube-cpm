@@ -89,6 +89,8 @@ data we are allowed to publish yet.
 | Q9 | How much does audience country move RPM? | **open.** One disclosure: CPM of `$4.08` for US views against `$1.16` for India on the same video | [data/2020/creators.csv](data/2020/creators.csv) |
 | Q10 | Are sponsor rates rising or falling over the years? | **open.** Sponsor rates are estimated for 2026 only | needs dated rate cards |
 | Q11 | Does Shorts ever pay like long-form? | So far, no. The one published split: `$0.06` per 1,000 Shorts views against `$0.52` for the same channel's long-form in 2025, about 9x less | [data/2025/creators.csv](data/2025/creators.csv) |
+| Q12 | What does a creator earn per **watch hour**, the denominator views can't inflate? | **open.** Studio shows it, but almost no creator publishes it | send a Studio screenshot with revenue and watch hours |
+
 
 ## The numbers
 
@@ -241,6 +243,14 @@ As of September 2026, not quite:
 
 What this adds: a row for each creator's own disclosure, history across years, and a
 public diff every time a number changes.
+
+## WARNING
+**"Per 1,000 views" is a weakening yardstick, and every rate here uses it.**
+
+- **Views have been inflated twice.** Since February 2023, Studio's RPM divides revenue by *all* views, including Shorts that earn cents per 1,000. Since March 2025, a Shorts view counts on every start and replay. A channel's RPM can halve with no change in what advertisers pay.
+- **Your Studio RPM will usually read below these ranges.** The index here describes long-form, mostly US viewing. Check yours in Studio under Revenue, filtered to long-form.
+- **CPM and RPM are the advertiser's vocabulary.** They price an ad slot, not a creator's work. The fairer denominator is **revenue per watch hour**: it cannot be inflated by replays, and it rewards the attention a video actually holds. Almost nobody publishes it yet, so this repo can't either ([Q12](#research-questions)). If you share yours, it goes in.
+
 
 ## Layout
 
