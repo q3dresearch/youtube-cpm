@@ -68,5 +68,5 @@
 <text x="28.0" y="578.5" font-size="10.5" fill="#8a8880" text-anchor="start" font-weight="normal" style="font-variant-numeric: tabular-nums">share is being split too. This advice flips only if a filing shows ad revenue outgrowing Shorts views.</text>
 <line x1="28" y1="618.0" x2="852" y2="618.0" stroke="#e3e2db"/>
 <text x="28.0" y="634.0" font-size="10" fill="#8a8880" text-anchor="start" font-weight="normal" style="font-variant-numeric: tabular-nums">Sources, all first-party: Alphabet 10-K 'YouTube ads' revenue; YouTube CEO letters and blog posts for Shorts daily views and</text>
-<text x="28.0" y="647.0" font-size="10" fill="#8a8880" text-anchor="start" font-weight="normal" style="font-variant-numeric: tabular-nums">partner-programme size ("over" figures, so lower bounds). Rows in macro/macro.csv.</text>
+<text x="28.0" y="647.0" font-size="10" fill="#8a8880" text-anchor="start" font-weight="normal" style="font-variant-numeric: tabular-nums">partner-programme size ("over" figures, so lower bounds). Rows in data/macro/macro.csv.</text>
 </svg>

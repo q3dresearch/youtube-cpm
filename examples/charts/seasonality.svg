@@ -132,6 +132,6 @@
 <text x="28.0" y="551.5" font-size="10.5" fill="#8a8880" text-anchor="start" font-weight="normal" style="font-variant-numeric: tabular-nums">same band. So the dip is a calendar effect, not a market one. If the drop is price rather than volume, Q1 is when a brand's</text>
 <text x="28.0" y="564.5" font-size="10.5" fill="#8a8880" text-anchor="start" font-weight="normal" style="font-variant-numeric: tabular-nums">budget buys the most views, and when a creator has the least ad income to fall back on while negotiating.</text>
 <line x1="28" y1="602.0" x2="852" y2="602.0" stroke="#e3e2db"/>
-<text x="28.0" y="618.0" font-size="10" fill="#8a8880" text-anchor="start" font-weight="normal" style="font-variant-numeric: tabular-nums">Source: Alphabet Forms 10-Q, 10-K and 8-K earnings exhibits, row 'YouTube ads'. Rows in macro/macro.csv. Revenue is price times</text>
+<text x="28.0" y="618.0" font-size="10" fill="#8a8880" text-anchor="start" font-weight="normal" style="font-variant-numeric: tabular-nums">Source: Alphabet Forms 10-Q, 10-K and 8-K earnings exhibits, row 'YouTube ads'. Rows in data/macro/macro.csv. Revenue is price times</text>
 <text x="28.0" y="631.0" font-size="10" fill="#8a8880" text-anchor="start" font-weight="normal" style="font-variant-numeric: tabular-nums">volume; a quarter with more views and flat CPM would also rise.</text>
 </svg>

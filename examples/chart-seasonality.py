@@ -126,7 +126,7 @@ def main():
     s.append(f'<line x1="28" y1="{H-44:.1f}" x2="{W-28}" y2="{H-44:.1f}" stroke="{RULE}"/>')
     s += plate.wrap(28, H - 28,
         "Source: Alphabet Forms 10-Q, 10-K and 8-K earnings exhibits, row 'YouTube ads'. Rows in "
-        "macro/macro.csv. Revenue is price times volume; a quarter with more views and flat CPM "
+        "data/macro/macro.csv. Revenue is price times volume; a quarter with more views and flat CPM "
         "would also rise.",
         size=10, fill=MUTED, chars=134, leading=13)
     s.append("</svg>")

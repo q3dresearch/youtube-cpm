@@ -6,7 +6,7 @@ recorded here. That is deliberate: a number copied from an article about the vid
 article's number.
 
 To promote one: watch it, note the timestamp where the Studio screen is shown, and add a row
-to `<year>/creators.csv` with that timestamp in `locator`. Then delete the line here.
+to `data/<year>/creators.csv` with that timestamp in `locator`. Then delete the line here.
 
 | year | creator | video | what it covers |
 | ---: | --- | --- | --- |

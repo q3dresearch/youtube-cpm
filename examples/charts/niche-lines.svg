@@ -129,6 +129,6 @@
 <text x="28.0" y="620.0" font-size="10.5" fill="#8a8880" text-anchor="start" font-weight="normal" style="font-variant-numeric: tabular-nums">the bottom (gaming, entertainment) repeats every year it can be checked; the middle swaps. The quadrant plate turns this into a</text>
 <text x="28.0" y="633.0" font-size="10.5" fill="#8a8880" text-anchor="start" font-weight="normal" style="font-variant-numeric: tabular-nums">choice: which niche pays well and is gaining on YouTube's own ad growth.</text>
 <line x1="28" y1="658.0" x2="852" y2="658.0" stroke="#e3e2db"/>
-<text x="28.0" y="674.0" font-size="10" fill="#8a8880" text-anchor="start" font-weight="normal" style="font-variant-numeric: tabular-nums">maintainer_estimate rows in &lt;year&gt;/benchmarks.csv: our own ranges, triangulated against sources whose terms forbid republishing</text>
+<text x="28.0" y="674.0" font-size="10" fill="#8a8880" text-anchor="start" font-weight="normal" style="font-variant-numeric: tabular-nums">maintainer_estimate rows in data/&lt;year&gt;/benchmarks.csv: our own ranges, triangulated against sources whose terms forbid republishing</text>
 <text x="28.0" y="687.0" font-size="10" fill="#8a8880" text-anchor="start" font-weight="normal" style="font-variant-numeric: tabular-nums">(method in examples/build_index.py).</text>
 </svg>

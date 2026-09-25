@@ -121,7 +121,7 @@ def main():
     s += plate.wrap(28, H - 30,
         "Sources, all first-party: Alphabet 10-K 'YouTube ads' revenue; YouTube CEO letters and "
         "blog posts for Shorts daily views and partner-programme size (\"over\" figures, so lower "
-        "bounds). Rows in macro/macro.csv.",
+        "bounds). Rows in data/macro/macro.csv.",
         size=10, fill=MUTED, chars=134, leading=13)
     s.append("</svg>")
     svg = ("\n".join(s).replace('height="10"', f'height="{H}"')

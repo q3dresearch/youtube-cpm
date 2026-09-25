@@ -90,7 +90,7 @@ def main():
     out += ["### Creators' own disclosures", "",
             f"{len(c)} rows from {c.creator.nunique()} creators, each linked to the creator's own "
             f"post. Below is each creator's latest RPM; every row (CPM, CTR, Shorts, earlier "
-            f"years) is in `<year>/creators.csv`.", "",
+            f"years) is in `data/<year>/creators.csv`.", "",
             "| year | creator | niche | metric | value | period | source |",
             "| ---: | --- | --- | --- | ---: | --- | --- |"]
     for r in show.itertuples():

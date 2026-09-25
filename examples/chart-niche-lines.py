@@ -103,7 +103,7 @@ def main():
     H = int(sy + 19 + 3 * 13 + 56)
     s.append(f'<line x1="28" y1="{H-44:.1f}" x2="{W-28}" y2="{H-44:.1f}" stroke="{RULE}"/>')
     s += plate.wrap(28, H - 28,
-        "maintainer_estimate rows in <year>/benchmarks.csv: our own ranges, triangulated against "
+        "maintainer_estimate rows in data/<year>/benchmarks.csv: our own ranges, triangulated against "
         "sources whose terms forbid republishing (method in examples/build_index.py).",
         size=10, fill=MUTED, chars=134, leading=13)
     s.append("</svg>")

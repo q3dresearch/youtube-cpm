@@ -135,14 +135,14 @@ def main():
     H = int(sy + 19 + 4 * 13 + 56)
     s.append(f'<line x1="28" y1="{H-44:.1f}" x2="{W-28}" y2="{H-44:.1f}" stroke="{RULE}"/>')
     s += plate.wrap(28, H - 28,
-        "Source: creators' own disclosures, one row each in <year>/creators.csv with its link. "
-        "The CTR band is from YouTube Help (macro/macro.csv). RPM here is YouTube Studio RPM, "
+        "Source: creators' own disclosures, one row each in data/<year>/creators.csv with its link. "
+        "The CTR band is from YouTube Help (data/macro/macro.csv). RPM here is YouTube Studio RPM, "
         "per 1,000 views of any kind.",
         size=10, fill=MUTED, chars=134, leading=13)
     s.append("</svg>")
     svg = ("\n".join(s).replace('height="10"', f'height="{H}"')
                        .replace(f'viewBox="0 0 {W} 10"', f'viewBox="0 0 {W} {H}"'))
-    out = pathlib.Path(__file__).parent / "charts" / "rpm-vs-cpm.svg"
+    out = pathlib.Path(__file__).parent / "charts" / "negative" / "rpm-vs-cpm.svg"
     out.write_text(svg, encoding="utf-8")
     print(f"  wrote {out.name}: {title}")
     print(rows[["creator", "year", "niche", "rpm", "cpm", "share"]].round(2).to_string())

@@ -70,7 +70,7 @@ Midpoint of the range, $ per 1,000 views. **—** means there was no evidence we
 
 ### Creators' own disclosures
 
-39 rows from 9 creators, each linked to the creator's own post. Below is each creator's latest RPM; every row (CPM, CTR, Shorts, earlier years) is in `<year>/creators.csv`.
+39 rows from 9 creators, each linked to the creator's own post. Below is each creator's latest RPM; every row (CPM, CTR, Shorts, earlier years) is in `data/<year>/creators.csv`.
 
 | year | creator | niche | metric | value | period | source |
 | ---: | --- | --- | --- | ---: | --- | --- |
@@ -102,14 +102,14 @@ swap places from year to year. A creator's own numbers can still sit more than 1
 niche's line, for reasons unrelated to the niche: audience country, kids-classified views,
 video length.
 
-![CPM up 14%, RPM down 34% (2021–2023): advertisers didn't cut this pay.](examples/charts/rpm-vs-cpm.svg)
+![A trending video's daily views halve every 2.2 days: news in 1.2, music in 4.7.](examples/charts/attention.svg)
 
-**A falling RPM is often not the advertisers.** Only one public channel has published its
-own RPM, CPM and thumbnail click-through rate every year. Over 2021–2023 its advertisers
-paid *more* per playback, while its click-through rate stayed within YouTube's normal range.
-What fell was the share of its views that carried an ad at all. Across every creator here
-who disclosed both RPM and CPM, the share of the ad price that reaches the creator ranges
-from 0.23 to 0.51.
+**Judge a video on day 7.** Across 3,790 US trending videos (a CC0 dataset), daily views
+halve every 2.2 days at the median, so about 89% of a trending video's views, and its
+AdSense, arrive in the first week. Its breakeven has to be met in that week, and a sponsor's
+flat fee paid up front is worth more than it looks. Music is the exception, with a 4.7-day
+half-life. The long tail comes from search, which this dataset cannot see: a tutorial that
+never trends is a different kind of asset.
 
 ![YouTube's ad take has fallen 12%–20% every Q1 for 8 years, boom or slump.](examples/charts/seasonality.svg)
 
@@ -135,7 +135,7 @@ their values. Every row has a `basis`:
 | `maintainer_estimate` | **our own index.** A range per niche and year, set after reading sources we may not republish. Trust us or don't. | this repo; `locator` says how many sources it was checked against |
 | `creator_report` | a creator showing their own YouTube Studio numbers in public | the creator's own post or video, never an article about it |
 | `open_source` | a dataset whose licence allows redistribution | that dataset, under its licence |
-| `platform_report` | YouTube's or Alphabet's own statements and filings | the filing or official post (`macro/`) |
+| `platform_report` | YouTube's or Alphabet's own statements and filings | the filing or official post (`data/macro/`) |
 
 **How the index is made:** [`examples/build_index.py`](examples/build_index.py) builds it
 from the private sources:
@@ -157,7 +157,7 @@ The sources themselves live in a folder git ignores.
 
 ## Add a data point
 
-Saw a creator share their YouTube Studio numbers? Add a row to `<year>/creators.csv`:
+Saw a creator share their YouTube Studio numbers? Add a row to `data/<year>/creators.csv`:
 
 1. Link to **the creator's own post or video**, not a news story about it. Put the timestamp
    in `locator` if it is a video.
@@ -177,7 +177,7 @@ As of September 2026, not quite:
   (CC-BY-4.0) is the closest. It has 30 niches, but it is a single 2026 snapshot of
   aggregates. Several of its sources are channel home pages rather than the post with the
   number, and its RPM column is 0.55 × CPM, not a measured RPM. We republish its CPM rows in
-  [2026/benchmarks.csv](2026/benchmarks.csv) and leave out its RPM rows.
+  [data/2026/benchmarks.csv](data/2026/benchmarks.csv) and leave out its RPM rows.
 - **Studies from channel networks and SEO blogs** publish niche RPMs drawn from real
   channels. They release aggregates only, rewrite the page each year, and reserve all rights.
 - **FYPM** crowdsources brand-deal rates, not AdSense, and is members-only.
@@ -190,10 +190,13 @@ public diff every time a number changes.
 ## Layout
 
 ```
-<year>/benchmarks.csv   niche rates for that year: our index, plus open-licence rows
-<year>/creators.csv     creators' own disclosures, one row per metric per period
-macro/macro.csv         YouTube / Alphabet first-party series (revenue, Shorts, partner count, CTR norms)
-examples/               loader, index builder, the five charts (rejected ones in charts/negative/), README table generator
+data/
+  2017/ … 2026/         one folder per year of observation
+    benchmarks.csv      niche rates for that year: our index, plus open-licence rows
+    creators.csv        creators' own disclosures, one row per metric per period
+  macro/macro.csv       YouTube / Alphabet first-party series (revenue, Shorts, partner count, CTR norms)
+  attention/halflife.csv  per-video attention half-life from the CC0 trending dataset
+examples/               loader, index builder, charts (rejected ones in charts/negative/), README tables
 QUEUE.md                disclosures found but not yet verified
 ```
 

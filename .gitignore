@@ -5,3 +5,6 @@ __pycache__/
 # Sources whose terms forbid redistribution. Read locally to set our own ranges;
 # never committed, never named in a published row.
 triangulation/
+
+# CC0 source for data/attention/, 62 MB; examples/attention.py re-downloads and hash-checks it
+data/attention/raw/

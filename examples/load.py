@@ -15,6 +15,7 @@ import sys
 import pandas as pd
 
 REPO = pathlib.Path(__file__).resolve().parents[1]
+DATA = REPO / "data"
 
 BENCH = ["year", "as_of", "metric", "niche", "geo", "low", "high", "point", "currency",
          "unit", "basis", "publisher", "source_url", "locator", "notes"]
@@ -27,7 +28,7 @@ BASES = {"maintainer_estimate", "creator_report", "open_source", "platform_repor
 
 def _read(name, cols):
     frames = []
-    for f in sorted(REPO.glob(f"[0-9][0-9][0-9][0-9]/{name}")):
+    for f in sorted(DATA.glob(f"[0-9][0-9][0-9][0-9]/{name}")):
         df = pd.read_csv(f, dtype={"as_of": str})
         missing = [c for c in cols if c not in df.columns]
         assert not missing, f"{f.relative_to(REPO)} is missing columns {missing}"
@@ -56,7 +57,7 @@ def creators():
 
 
 def macro():
-    return pd.read_csv(REPO / "macro" / "macro.csv")
+    return pd.read_csv(DATA / "macro" / "macro.csv")
 
 
 def main():

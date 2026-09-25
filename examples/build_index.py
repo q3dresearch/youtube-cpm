@@ -6,7 +6,7 @@
 **Why the index exists at all.** Nearly every published RPM-by-niche table sits behind terms
 that forbid redistribution, so this repository cannot print their numbers. It can print its
 own. This script reads those tables from `triangulation/` (git-ignored, never committed),
-and writes one `maintainer_estimate` row per niche and year into `<year>/benchmarks.csv`.
+and writes one `maintainer_estimate` row per niche and year into `data/<year>/benchmarks.csv`.
 Each row states how many independent publishers it was checked against. It never names them
 or carries their values.
 
@@ -108,7 +108,7 @@ def main():
             "locator": [f"triangulated against {r.n} voters, {r.window}" for r in rows.itertuples()],
             "notes": "median of sources' lows and highs; sources not named (terms forbid redistribution)",
         })
-        f = REPO / str(year) / "benchmarks.csv"
+        f = load.DATA / str(year) / "benchmarks.csv"
         f.parent.mkdir(exist_ok=True)
         keep = pd.read_csv(f) if f.exists() else pd.DataFrame(columns=load.BENCH)
         keep = keep[keep.basis != "maintainer_estimate"]
