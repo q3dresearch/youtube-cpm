@@ -86,13 +86,21 @@ Midpoint of the range, $ per 1,000 views. **—** means there was no evidence we
 
 ## What the numbers say
 
-![Finance paid 9–14x entertainment in all 3 years measured; the rungs between swap.](examples/charts/niche-index.svg)
+![Finance, health and tech: above-median pay, growing faster than YouTube's ad money.](examples/charts/niche-quadrant.svg)
 
-**The niche matters at the ends of the ladder and hardly at all in the middle.** Finance
-and business pay the most in every year they can be measured, and entertainment and gaming
-the least. Between them, education, tech, health, travel, lifestyle and beauty swap places
-from one year to the next. And one creator's own numbers can sit more than 10x from their
-niche's range, for reasons that have nothing to do with the niche.
+**Which niche to go into: top-right.** Finance, health and tech pay above the median niche,
+and their pay has grown faster than YouTube's own ad revenue (+13% a year, 2023–2025), so
+they are taking a bigger share of the same pot. Education pays well but grows more slowly
+than the platform. Business and food have only one year of evidence, so they have no trend
+yet. Most dots rest on two or three years of data: treat them as leads.
+
+![Finance pays 9x entertainment in 2026; the top and bottom never swap.](examples/charts/niche-lines.svg)
+
+**Read the order, not the slopes.** Finance, business and tech stay at the top in every year
+they can be measured, and gaming and entertainment stay at the bottom. The niches in between
+swap places from year to year. A creator's own numbers can still sit more than 10x from their
+niche's line, for reasons unrelated to the niche: audience country, kids-classified views,
+video length.
 
 ![CPM up 14%, RPM down 34% (2021–2023): advertisers didn't cut this pay.](examples/charts/rpm-vs-cpm.svg)
 
@@ -185,7 +193,7 @@ public diff every time a number changes.
 <year>/benchmarks.csv   niche rates for that year: our index, plus open-licence rows
 <year>/creators.csv     creators' own disclosures, one row per metric per period
 macro/macro.csv         YouTube / Alphabet first-party series (revenue, Shorts, partner count, CTR norms)
-examples/               loader, index builder, the four charts, README table generator
+examples/               loader, index builder, the five charts (rejected ones in charts/negative/), README table generator
 QUEUE.md                disclosures found but not yet verified
 ```
 

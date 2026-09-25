@@ -72,3 +72,12 @@ def main():
 
 if __name__ == "__main__":
     sys.exit(main())
+
+
+# One colour per niche, shared by every chart, so a niche reads the same across plates.
+# Ordered roughly by pay so neighbours on the ladder are not neighbours in hue.
+NICHE_COLOUR = {
+    "finance": "#1f5c4c", "business": "#5b6fb0", "tech": "#c0503e", "health": "#8a5aa8",
+    "education": "#c08a3e", "travel": "#3a8fb7", "beauty": "#d46a9f", "lifestyle": "#7a8f3a",
+    "food": "#a0522d", "gaming": "#4a4a8a", "entertainment": "#6b6b6b", "all": "#aca89a",
+}
