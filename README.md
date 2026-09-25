@@ -12,6 +12,86 @@
 
 </div>
 
+<p align="center"><sub><a href="#what-the-numbers-say">charts</a> · <a href="#research-questions">research questions</a> · <a href="#the-numbers">the numbers</a> · <a href="#where-the-numbers-come-from">sources &amp; method</a> · <a href="#add-a-data-point">add a data point</a></sub></p>
+
+## What the numbers say
+
+![A $435 outsourced edit pays for itself at 24k views in finance, 218k in entertainment.](examples/charts/breakeven.svg)
+
+**Breakeven is set by the niche, not the channel size.** On AdSense alone, a standard
+outsourced edit (`$220–650`) pays for itself at 24k views a video in finance and 218k in
+entertainment. The creator's own time costs more than the editor: a 10-minute video takes
+40–100 hours, and at `$25` an hour that is `$1,000–2,500.` Covering it takes 95k views a video
+in finance and 0.9M in entertainment. Q1 moves every crossing 18% to the right.
+
+![One sponsor is 72%–89% of a video's income; finance outgrows the need at 24k views.](examples/charts/sponsors.svg)
+
+**When you need sponsorships, and when you don't.** A sponsored integration pays 3–8x the
+niche's RPM per view, so one sponsor is 72–89% of a video's income in every niche. Below the
+amber zone nothing pays for an editor. Inside it, take the sponsor. Past the green edge, ads
+alone cover the video, and a sponsor that hurts it can be turned down. Gaming and
+entertainment need sponsors from 17–25k views up to 134–218k. Finance needs them only
+between 7k and 24k.
+
+![Finance, health and tech: above-median pay, growing faster than YouTube's ad money.](examples/charts/niche-quadrant.svg)
+
+**Which niche to go into: top-right.** Finance, health and tech pay above the median niche,
+and their pay has grown faster than YouTube's own ad revenue (+13% a year, 2023–2025), so
+they are taking a bigger share of the same pot. Education pays well but grows more slowly
+than the platform. Business and food have only one year of evidence, so they have no trend
+yet. Most dots rest on two or three years of data: treat them as leads.
+
+![Finance pays 9x entertainment in 2026; the top and bottom never swap.](examples/charts/niche-lines.svg)
+
+**Read the order, not the slopes.** Finance, business and tech stay at the top in every year
+they can be measured, and gaming and entertainment stay at the bottom. The niches in between
+swap places from year to year. A creator's own numbers can still sit more than 10x from their
+niche's line, for reasons unrelated to the niche: audience country, kids-classified views,
+video length.
+
+![A trending video's daily views halve every 2.2 days: news in 1.2, music in 4.7.](examples/charts/attention.svg)
+
+**Judge a video on day 7.** Across 3,790 US trending videos (a CC0 dataset), daily views
+halve every 2.2 days at the median, so about 89% of a trending video's views, and its
+AdSense, arrive in the first week. Its breakeven has to be met in that week, and a sponsor's
+flat fee paid up front is worth more than it looks. Music is the exception, with a 4.7-day
+half-life. The long tail comes from search, which this dataset cannot see: a tutorial that
+never trends is a different kind of asset.
+
+![YouTube's ad take has fallen 12%–20% every Q1 for 8 years, boom or slump.](examples/charts/seasonality.svg)
+
+**Budget Q1 at about 85% of Q4.** Alphabet's own filings show YouTube's Q1 ad revenue below
+the Q4 before it in all eight transitions from 2018 to 2025. The size of the drop does not
+depend on whether the market was growing 49% or shrinking.
+
+![Shorts views grew 4x in two years; the ad money grew 28%.](examples/charts/competition.svg)
+
+**The ad pot is being split across far more views.** From 2023 to 2025, YouTube's own
+figures show Shorts daily views growing from 50 billion to 200 billion, while YouTube ad
+revenue grew from `$31.5B` to `$40.4B`. Long-form and Shorts are paid from the same pot, so treat
+Shorts as a funnel into long-form, not as income.
+
+## Research questions
+
+Each chart above answers one question a creator has to decide. The ones marked **open** have no
+data we are allowed to publish yet.
+
+| # | question | answer so far | evidence |
+| --- | --- | --- | --- |
+| Q1 | How many views does a video need to pay for itself? | `24k` a video in finance to `218k` in entertainment, for a `$435` outsourced edit on ads alone. The creator's own time costs about 4x that | [breakeven](examples/charts/breakeven.svg) |
+| Q2 | When do I need sponsorships, and when don't I? | Needed between the two crossings, e.g. `7k`–`24k` views in finance and `25k`–`218k` in entertainment. One sponsor is 72–89% of a video's income | [sponsors](examples/charts/sponsors.svg) |
+| Q3 | Which niche should I go into? | Finance, health and tech: above-median pay, growing faster than YouTube's ad revenue | [quadrant](examples/charts/niche-quadrant.svg) |
+| Q4 | Does the niche ranking hold over time? | At the ends, yes (finance on top, entertainment at the bottom). In the middle, niches swap places from year to year | [lines](examples/charts/niche-lines.svg) |
+| Q5 | How long does a video keep earning? | Trending videos: daily views halve every 2.2 days, so about 89% of views arrive in week one. Music takes 4.7 days | [attention](examples/charts/attention.svg) |
+| Q6 | When in the year does income drop? | Every Q1, by 12–20% against Q4, for 8 years running, whether the market grew or shrank | [seasonality](examples/charts/seasonality.svg) |
+| Q7 | Is competition diluting pay? | Shorts daily views grew 4x in 2023–25 while the ad money grew 28%, and both are paid from the same pot | [competition](examples/charts/competition.svg) |
+| Q8 | How long does a *search-driven* evergreen video keep earning? | **open.** The only open view-decay data covers trending videos | needs creators' own view curves |
+| Q9 | How much does audience country move RPM? | **open.** One disclosure: CPM of `$4.08` for US views against `$1.16` for India on the same video | [data/2020/creators.csv](data/2020/creators.csv) |
+| Q10 | Are sponsor rates rising or falling over the years? | **open.** Sponsor rates are estimated for 2026 only | needs dated rate cards |
+| Q11 | Does Shorts ever pay like long-form? | So far, no. The one published split: `$0.06` per 1,000 Shorts views against `$0.52` for the same channel's long-form in 2025, about 9x less | [data/2025/creators.csv](data/2025/creators.csv) |
+
+## The numbers
+
 **This is a fact table, not the truth.** It records who said what about YouTube pay, and
 when. It is updated by hand whenever someone publishes a new number worth keeping, usually a
 creator posting their own YouTube Studio screenshot. Nothing here is scraped on a schedule.
@@ -98,63 +178,6 @@ Midpoint of the range, dollars per 1,000 views. **—** means there was no evide
 | 2019 | Roberto Blake | business | rpm | `$7.27` | 2019 full year | [link](https://robertoblake.com/youtube-income-reports-for-jan-nov-2019/) |
 
 <!-- tables:end -->
-
-## What the numbers say
-
-![A $435 outsourced edit pays for itself at 24k views in finance, 218k in entertainment.](examples/charts/breakeven.svg)
-
-**Breakeven is set by the niche, not the channel size.** On AdSense alone, a standard
-outsourced edit (`$220–650`) pays for itself at 24k views a video in finance and 218k in
-entertainment. The creator's own time costs more than the editor: a 10-minute video takes
-40–100 hours, and at `$25` an hour that is `$1,000–2,500.` Covering it takes 95k views a video
-in finance and 0.9M in entertainment. Q1 moves every crossing 18% to the right.
-
-![One sponsor is 72%–89% of a video's income; finance outgrows the need at 24k views.](examples/charts/sponsors.svg)
-
-**When you need sponsorships, and when you don't.** A sponsored integration pays 3–8x the
-niche's RPM per view, so one sponsor is 72–89% of a video's income in every niche. Below the
-amber zone nothing pays for an editor. Inside it, take the sponsor. Past the green edge, ads
-alone cover the video, and a sponsor that hurts it can be turned down. Gaming and
-entertainment need sponsors from 17–25k views up to 134–218k. Finance needs them only
-between 7k and 24k.
-
-![Finance, health and tech: above-median pay, growing faster than YouTube's ad money.](examples/charts/niche-quadrant.svg)
-
-**Which niche to go into: top-right.** Finance, health and tech pay above the median niche,
-and their pay has grown faster than YouTube's own ad revenue (+13% a year, 2023–2025), so
-they are taking a bigger share of the same pot. Education pays well but grows more slowly
-than the platform. Business and food have only one year of evidence, so they have no trend
-yet. Most dots rest on two or three years of data: treat them as leads.
-
-![Finance pays 9x entertainment in 2026; the top and bottom never swap.](examples/charts/niche-lines.svg)
-
-**Read the order, not the slopes.** Finance, business and tech stay at the top in every year
-they can be measured, and gaming and entertainment stay at the bottom. The niches in between
-swap places from year to year. A creator's own numbers can still sit more than 10x from their
-niche's line, for reasons unrelated to the niche: audience country, kids-classified views,
-video length.
-
-![A trending video's daily views halve every 2.2 days: news in 1.2, music in 4.7.](examples/charts/attention.svg)
-
-**Judge a video on day 7.** Across 3,790 US trending videos (a CC0 dataset), daily views
-halve every 2.2 days at the median, so about 89% of a trending video's views, and its
-AdSense, arrive in the first week. Its breakeven has to be met in that week, and a sponsor's
-flat fee paid up front is worth more than it looks. Music is the exception, with a 4.7-day
-half-life. The long tail comes from search, which this dataset cannot see: a tutorial that
-never trends is a different kind of asset.
-
-![YouTube's ad take has fallen 12%–20% every Q1 for 8 years, boom or slump.](examples/charts/seasonality.svg)
-
-**Budget Q1 at about 85% of Q4.** Alphabet's own filings show YouTube's Q1 ad revenue below
-the Q4 before it in all eight transitions from 2018 to 2025. The size of the drop does not
-depend on whether the market was growing 49% or shrinking.
-
-![Shorts views grew 4x in two years; the ad money grew 28%.](examples/charts/competition.svg)
-
-**The ad pot is being split across far more views.** From 2023 to 2025, YouTube's own
-figures show Shorts daily views growing from 50 billion to 200 billion, while YouTube ad
-revenue grew from `$31.5B` to `$40.4B`. Long-form and Shorts are paid from the same pot, so treat
-Shorts as a funnel into long-form, not as income.
 
 ## Where the numbers come from
 
