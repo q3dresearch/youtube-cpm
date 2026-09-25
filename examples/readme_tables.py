@@ -21,7 +21,8 @@ README = load.REPO / "README.md"
 
 
 def money(v):
-    return f"${v:,.0f}" if v == int(v) else f"${v:,.2f}"
+    # in backticks: GitHub renders anything between two "$" on a line as LaTeX
+    return f"`${v:,.0f}`" if v == int(v) else f"`${v:,.2f}`"
 
 
 def rng(lo, hi):
@@ -55,8 +56,8 @@ def main():
     if len(cpv) and len(std):
         cost = std.iloc[0].mid
         out += [f"### What a video needs, {latest}", "",
-                f"Views per video at which a **${cost:.0f} standard edit + thumbnail** pays for itself. "
-                f"Sponsor rate is $ per 1,000 views for one 60–90 s integration.", "",
+                f"Views per video at which a **`${cost:.0f}` standard edit + thumbnail** pays for itself. "
+                f"Sponsor rate is dollars per 1,000 views for one 60–90 s integration.", "",
                 "| niche | RPM | sponsor rate | pays with ads + a sponsor | pays with ads alone | "
                 "one sponsor's share of income |",
                 "| --- | ---: | ---: | ---: | ---: | ---: |"]
@@ -76,7 +77,7 @@ def main():
                   [n for n in piv.index if pd.isna(piv.loc[n, latest])]]
     yrs = [int(y) for y in piv.columns]
     out += ["### The same index, every year", "",
-            "Midpoint of the range, $ per 1,000 views. **—** means there was no evidence we "
+            "Midpoint of the range, dollars per 1,000 views. **—** means there was no evidence we "
             "could use that year, not a low rate.", "",
             "| niche | " + " | ".join(map(str, yrs)) + " |",
             "| --- | " + " | ".join("---:" for _ in yrs) + " |"]
@@ -99,7 +100,7 @@ def main():
         drop = ""
         if y in q.index and y - 1 in q.index and pd.notna(q.loc[y].get("Q1")) and pd.notna(q.loc[y - 1].get("Q4")):
             drop = f"{q.loc[y, 'Q1'] / q.loc[y - 1, 'Q4'] - 1:+.0%}"
-        r = f"${rev[y]:.1f}B" if y in rev.index else "—"
+        r = f"`${rev[y]:.1f}B`" if y in rev.index else "—"
         sv = f"{shorts[y]:.0f}B+" if y in shorts.index else ""
         yp = f"{ypp[y]/1e6:.0f}M+" if y in ypp.index else ""
         out.append(f"| {y} | {r} | {drop} | {sv} | {yp} |")
