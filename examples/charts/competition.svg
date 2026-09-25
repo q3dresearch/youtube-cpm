@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="664" viewBox="0 0 880 664" font-family='system-ui, -apple-system, "Segoe UI", sans-serif'><rect width="880" height="664" fill="#fcfcfb"/>
+<text x="28.0" y="40.0" font-size="19" fill="#0b0b0b" text-anchor="start" font-weight="600" style="font-variant-numeric: tabular-nums">Shorts views grew 4x in two years; the ad money grew 28%.</text>
+<text x="28.0" y="60.0" font-size="12" fill="#52514e" text-anchor="start" font-weight="normal" style="font-variant-numeric: tabular-nums">YouTube's own figures, each indexed to 2023 = 100. Log scale, so equal slopes mean equal growth rates.</text>
+<text x="28.0" y="88.0" font-size="8.5" fill="#8a8880" text-anchor="start" font-weight="700" letter-spacing="0.9" style="font-variant-numeric: tabular-nums">FOR</text>
+<text x="28.0" y="103.0" font-size="11.5" fill="#52514e" text-anchor="start" font-weight="normal" style="font-variant-numeric: tabular-nums">A creator choosing between Shorts and</text>
+<text x="28.0" y="116.5" font-size="11.5" fill="#52514e" text-anchor="start" font-weight="normal" style="font-variant-numeric: tabular-nums">long-form for the next year of uploads</text>
+<text x="302.7" y="88.0" font-size="8.5" fill="#8a8880" text-anchor="start" font-weight="700" letter-spacing="0.9" style="font-variant-numeric: tabular-nums">DECIDE</text>
+<text x="302.7" y="103.0" font-size="11.5" fill="#52514e" text-anchor="start" font-weight="normal" style="font-variant-numeric: tabular-nums">Whether Shorts views will ever pay like</text>
+<text x="302.7" y="116.5" font-size="11.5" fill="#52514e" text-anchor="start" font-weight="normal" style="font-variant-numeric: tabular-nums">long-form views, or stay a discovery tool for</text>
+<text x="302.7" y="130.0" font-size="11.5" fill="#52514e" text-anchor="start" font-weight="normal" style="font-variant-numeric: tabular-nums">the channel</text>
+<text x="577.3" y="88.0" font-size="8.5" fill="#8a8880" text-anchor="start" font-weight="700" letter-spacing="0.9" style="font-variant-numeric: tabular-nums">WRONG IF</text>
+<text x="577.3" y="103.0" font-size="11.5" fill="#8a8880" text-anchor="start" font-weight="normal" style="font-variant-numeric: tabular-nums">The green line catches the red one: ad</text>
+<text x="577.3" y="116.5" font-size="11.5" fill="#8a8880" text-anchor="start" font-weight="normal" style="font-variant-numeric: tabular-nums">revenue growing faster than Shorts views, so</text>
+<text x="577.3" y="130.0" font-size="11.5" fill="#8a8880" text-anchor="start" font-weight="normal" style="font-variant-numeric: tabular-nums">each view's share rises</text>
+<line x1="28" y1="139.5" x2="852" y2="139.5" stroke="#e3e2db"/>
+<line x1="84" y1="483.5" x2="690" y2="483.5" stroke="#f0efe9"/>
+<text x="76.0" y="487.5" font-size="10" fill="#8a8880" text-anchor="end" font-weight="normal" style="font-variant-numeric: tabular-nums">25</text>
+<line x1="84" y1="415.0" x2="690" y2="415.0" stroke="#f0efe9"/>
+<text x="76.0" y="419.0" font-size="10" fill="#8a8880" text-anchor="end" font-weight="normal" style="font-variant-numeric: tabular-nums">50</text>
+<line x1="84" y1="346.5" x2="690" y2="346.5" stroke="#f0efe9"/>
+<text x="76.0" y="350.5" font-size="10" fill="#8a8880" text-anchor="end" font-weight="normal" style="font-variant-numeric: tabular-nums">100</text>
+<line x1="84" y1="278.0" x2="690" y2="278.0" stroke="#f0efe9"/>
+<text x="76.0" y="282.0" font-size="10" fill="#8a8880" text-anchor="end" font-weight="normal" style="font-variant-numeric: tabular-nums">200</text>
+<line x1="84" y1="209.5" x2="690" y2="209.5" stroke="#f0efe9"/>
+<text x="76.0" y="213.5" font-size="10" fill="#8a8880" text-anchor="end" font-weight="normal" style="font-variant-numeric: tabular-nums">400</text>
+<text x="84.0" y="501.5" font-size="10" fill="#8a8880" text-anchor="middle" font-weight="normal" style="font-variant-numeric: tabular-nums">2017</text>
+<text x="151.3" y="501.5" font-size="10" fill="#8a8880" text-anchor="middle" font-weight="normal" style="font-variant-numeric: tabular-nums">2018</text>
+<text x="218.7" y="501.5" font-size="10" fill="#8a8880" text-anchor="middle" font-weight="normal" style="font-variant-numeric: tabular-nums">2019</text>
+<text x="286.0" y="501.5" font-size="10" fill="#8a8880" text-anchor="middle" font-weight="normal" style="font-variant-numeric: tabular-nums">2020</text>
+<text x="353.3" y="501.5" font-size="10" fill="#8a8880" text-anchor="middle" font-weight="normal" style="font-variant-numeric: tabular-nums">2021</text>
+<text x="420.7" y="501.5" font-size="10" fill="#8a8880" text-anchor="middle" font-weight="normal" style="font-variant-numeric: tabular-nums">2022</text>
+<text x="488.0" y="501.5" font-size="10" fill="#8a8880" text-anchor="middle" font-weight="normal" style="font-variant-numeric: tabular-nums">2023</text>
+<text x="555.3" y="501.5" font-size="10" fill="#8a8880" text-anchor="middle" font-weight="normal" style="font-variant-numeric: tabular-nums">2024</text>
+<text x="622.7" y="501.5" font-size="10" fill="#8a8880" text-anchor="middle" font-weight="normal" style="font-variant-numeric: tabular-nums">2025</text>
+<text x="690.0" y="501.5" font-size="10" fill="#8a8880" text-anchor="middle" font-weight="normal" style="font-variant-numeric: tabular-nums">2026</text>
+<line x1="84" y1="346.5" x2="690" y2="346.5" stroke="#aca89a" stroke-dasharray="3 3"/>
+<polygon points="488.0,346.5 555.3,313.3 622.7,209.5 622.7,322.0 555.3,333.0 488.0,346.5" fill="#c0503e" fill-opacity="0.10"/>
+<polyline fill="none" stroke="#2f6f5e" stroke-width="2.4"  points="84.0,480.1 151.3,449.1 218.7,418.9 286.0,392.6 353.3,355.3 420.7,353.9 488.0,346.5 555.3,333.0 622.7,322.0"/>
+<circle cx="84.0" cy="480.1" r="3.4" fill="#2f6f5e"/>
+<circle cx="151.3" cy="449.1" r="3.4" fill="#2f6f5e"/>
+<circle cx="218.7" cy="418.9" r="3.4" fill="#2f6f5e"/>
+<circle cx="286.0" cy="392.6" r="3.4" fill="#2f6f5e"/>
+<circle cx="353.3" cy="355.3" r="3.4" fill="#2f6f5e"/>
+<circle cx="420.7" cy="353.9" r="3.4" fill="#2f6f5e"/>
+<circle cx="488.0" cy="346.5" r="3.4" fill="#2f6f5e"/>
+<circle cx="555.3" cy="333.0" r="3.4" fill="#2f6f5e"/>
+<circle cx="622.7" cy="322.0" r="3.4" fill="#2f6f5e"/>
+<text x="632.7" y="326.0" fill="none" stroke="#fcfcfb" stroke-width="3.4" stroke-linejoin="round" font-size="11" text-anchor="start" font-weight="600" style="font-variant-numeric: tabular-nums">YouTube ad revenue</text>
+<text x="632.7" y="326.0" fill="#2f6f5e" font-size="11" text-anchor="start" font-weight="600" style="font-variant-numeric: tabular-nums">YouTube ad revenue</text>
+<polyline fill="none" stroke="#c0503e" stroke-width="2.4"  points="488.0,346.5 555.3,313.3 622.7,209.5"/>
+<circle cx="488.0" cy="346.5" r="3.4" fill="#c0503e"/>
+<circle cx="555.3" cy="313.3" r="3.4" fill="#c0503e"/>
+<circle cx="622.7" cy="209.5" r="3.4" fill="#c0503e"/>
+<text x="632.7" y="213.5" fill="none" stroke="#fcfcfb" stroke-width="3.4" stroke-linejoin="round" font-size="11" text-anchor="start" font-weight="600" style="font-variant-numeric: tabular-nums">Shorts daily views</text>
+<text x="632.7" y="213.5" fill="#c0503e" font-size="11" text-anchor="start" font-weight="600" style="font-variant-numeric: tabular-nums">Shorts daily views</text>
+<polyline fill="none" stroke="#5b6fb0" stroke-width="2.4" stroke-dasharray="5 3" points="353.3,386.6 488.0,346.5 690.0,346.5"/>
+<circle cx="353.3" cy="386.6" r="3.4" fill="#5b6fb0"/>
+<circle cx="488.0" cy="346.5" r="3.4" fill="#5b6fb0"/>
+<circle cx="690.0" cy="346.5" r="3.4" fill="#5b6fb0"/>
+<text x="700.0" y="350.5" fill="none" stroke="#fcfcfb" stroke-width="3.4" stroke-linejoin="round" font-size="11" text-anchor="start" font-weight="600" style="font-variant-numeric: tabular-nums">partner channels (floor)</text>
+<text x="700.0" y="350.5" fill="#5b6fb0" font-size="11" text-anchor="start" font-weight="600" style="font-variant-numeric: tabular-nums">partner channels (floor)</text>
+<text x="612.7" y="269.8" fill="none" stroke="#fcfcfb" stroke-width="3.4" stroke-linejoin="round" font-size="10.5" text-anchor="end" font-weight="500" style="font-variant-numeric: tabular-nums">the gap = views diluting the pot</text>
+<text x="612.7" y="269.8" fill="#c0503e" font-size="10.5" text-anchor="end" font-weight="500" style="font-variant-numeric: tabular-nums">the gap = views diluting the pot</text>
+<text x="28.0" y="533.5" fill="none" stroke="#fcfcfb" stroke-width="3.4" stroke-linejoin="round" font-size="12.5" text-anchor="start" font-weight="600" style="font-variant-numeric: tabular-nums">Treat Shorts as a funnel into long-form. Don't treat it as income.</text>
+<text x="28.0" y="533.5" fill="#0b0b0b" font-size="12.5" text-anchor="start" font-weight="600" style="font-variant-numeric: tabular-nums">Treat Shorts as a funnel into long-form. Don't treat it as income.</text>
+<text x="28.0" y="552.5" font-size="10.5" fill="#8a8880" text-anchor="start" font-weight="normal" style="font-variant-numeric: tabular-nums">Long-form and Shorts share one ad pot and YouTube does not split it, so the shaded gap is the least that Shorts views have been</text>
+<text x="28.0" y="565.5" font-size="10.5" fill="#8a8880" text-anchor="start" font-weight="normal" style="font-variant-numeric: tabular-nums">diluted. The partner line is flat at a "3 million" floor YouTube has repeated since 2024; if it is really growing, the long-form</text>
+<text x="28.0" y="578.5" font-size="10.5" fill="#8a8880" text-anchor="start" font-weight="normal" style="font-variant-numeric: tabular-nums">share is being split too. This advice flips only if a filing shows ad revenue outgrowing Shorts views.</text>
+<line x1="28" y1="618.0" x2="852" y2="618.0" stroke="#e3e2db"/>
+<text x="28.0" y="634.0" font-size="10" fill="#8a8880" text-anchor="start" font-weight="normal" style="font-variant-numeric: tabular-nums">Sources, all first-party: Alphabet 10-K 'YouTube ads' revenue; YouTube CEO letters and blog posts for Shorts daily views and</text>
+<text x="28.0" y="647.0" font-size="10" fill="#8a8880" text-anchor="start" font-weight="normal" style="font-variant-numeric: tabular-nums">partner-programme size ("over" figures, so lower bounds). Rows in macro/macro.csv.</text>
+</svg>

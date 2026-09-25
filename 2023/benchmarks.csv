@@ -1,0 +1,3 @@
+year,as_of,metric,niche,geo,low,high,point,currency,unit,basis,publisher,source_url,locator,notes
+2023,2026-09-25,rpm,all,mostly US,3.0,4.0,,USD,per_1000_views,maintainer_estimate,q3dresearch/youtube-cpm,https://github.com/q3dresearch/youtube-cpm,"triangulated against 2 voters, pooled 2023-2024",median of sources' lows and highs; sources not named (terms forbid redistribution)
+2023,2026-09-25,rpm,entertainment,mostly US,1.0,1.0,,USD,per_1000_views,maintainer_estimate,q3dresearch/youtube-cpm,https://github.com/q3dresearch/youtube-cpm,"triangulated against 3 voters, pooled 2022-2024",median of sources' lows and highs; sources not named (terms forbid redistribution)

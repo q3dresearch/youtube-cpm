@@ -1,0 +1,2 @@
+year,as_of,metric,niche,geo,low,high,point,currency,unit,basis,publisher,source_url,locator,notes
+2017,2026-09-25,rpm,all,mostly US,3.0,3.5,,USD,per_1000_views,maintainer_estimate,q3dresearch/youtube-cpm,https://github.com/q3dresearch/youtube-cpm,"triangulated against 2 voters, same year",median of sources' lows and highs; sources not named (terms forbid redistribution)

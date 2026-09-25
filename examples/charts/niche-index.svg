@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="876" viewBox="0 0 880 876" font-family='system-ui, -apple-system, "Segoe UI", sans-serif'><rect width="880" height="876" fill="#fcfcfb"/>
+<text x="28.0" y="40.0" font-size="19" fill="#0b0b0b" text-anchor="start" font-weight="600" style="font-variant-numeric: tabular-nums">Finance paid 9–14x entertainment in all 3 years measured; the rungs between swap.</text>
+<text x="28.0" y="60.0" font-size="12" fill="#52514e" text-anchor="start" font-weight="normal" style="font-variant-numeric: tabular-nums">Bars: this repo's RPM index (US-heavy, per 1,000 views), one per year. Dots: creators' own disclosed RPM.</text>
+<text x="28.0" y="88.0" font-size="8.5" fill="#8a8880" text-anchor="start" font-weight="700" letter-spacing="0.9" style="font-variant-numeric: tabular-nums">FOR</text>
+<text x="28.0" y="103.0" font-size="11.5" fill="#52514e" text-anchor="start" font-weight="normal" style="font-variant-numeric: tabular-nums">Someone choosing a niche to start, or a</text>
+<text x="28.0" y="116.5" font-size="11.5" fill="#52514e" text-anchor="start" font-weight="normal" style="font-variant-numeric: tabular-nums">creator checking if their RPM is normal</text>
+<text x="302.7" y="88.0" font-size="8.5" fill="#8a8880" text-anchor="start" font-weight="700" letter-spacing="0.9" style="font-variant-numeric: tabular-nums">DECIDE</text>
+<text x="302.7" y="103.0" font-size="11.5" fill="#52514e" text-anchor="start" font-weight="normal" style="font-variant-numeric: tabular-nums">Whether a niche switch would move income more</text>
+<text x="302.7" y="116.5" font-size="11.5" fill="#52514e" text-anchor="start" font-weight="normal" style="font-variant-numeric: tabular-nums">than fixing the channel itself</text>
+<text x="577.3" y="88.0" font-size="8.5" fill="#8a8880" text-anchor="start" font-weight="700" letter-spacing="0.9" style="font-variant-numeric: tabular-nums">WRONG IF</text>
+<text x="577.3" y="103.0" font-size="11.5" fill="#8a8880" text-anchor="start" font-weight="normal" style="font-variant-numeric: tabular-nums">Two niches swap order between years, or</text>
+<text x="577.3" y="116.5" font-size="11.5" fill="#8a8880" text-anchor="start" font-weight="normal" style="font-variant-numeric: tabular-nums">creator dots stop scattering beyond their</text>
+<text x="577.3" y="130.0" font-size="11.5" fill="#8a8880" text-anchor="start" font-weight="normal" style="font-variant-numeric: tabular-nums">niche's bars</text>
+<line x1="28" y1="139.5" x2="852" y2="139.5" stroke="#e3e2db"/>
+<line x1="216.5" y1="181.5" x2="216.5" y2="667.5" stroke="#f0efe9"/>
+<text x="216.5" y="683.5" font-size="10" fill="#8a8880" text-anchor="middle" font-weight="normal" style="font-variant-numeric: tabular-nums">$0.5</text>
+<line x1="306.8" y1="181.5" x2="306.8" y2="667.5" stroke="#f0efe9"/>
+<text x="306.8" y="683.5" font-size="10" fill="#8a8880" text-anchor="middle" font-weight="normal" style="font-variant-numeric: tabular-nums">$1</text>
+<line x1="397.1" y1="181.5" x2="397.1" y2="667.5" stroke="#f0efe9"/>
+<text x="397.1" y="683.5" font-size="10" fill="#8a8880" text-anchor="middle" font-weight="normal" style="font-variant-numeric: tabular-nums">$2</text>
+<line x1="516.4" y1="181.5" x2="516.4" y2="667.5" stroke="#f0efe9"/>
+<text x="516.4" y="683.5" font-size="10" fill="#8a8880" text-anchor="middle" font-weight="normal" style="font-variant-numeric: tabular-nums">$5</text>
+<line x1="606.7" y1="181.5" x2="606.7" y2="667.5" stroke="#f0efe9"/>
+<text x="606.7" y="683.5" font-size="10" fill="#8a8880" text-anchor="middle" font-weight="normal" style="font-variant-numeric: tabular-nums">$10</text>
+<line x1="696.9" y1="181.5" x2="696.9" y2="667.5" stroke="#f0efe9"/>
+<text x="696.9" y="683.5" font-size="10" fill="#8a8880" text-anchor="middle" font-weight="normal" style="font-variant-numeric: tabular-nums">$20</text>
+<line x1="816.3" y1="181.5" x2="816.3" y2="667.5" stroke="#f0efe9"/>
+<text x="816.3" y="683.5" font-size="10" fill="#8a8880" text-anchor="middle" font-weight="normal" style="font-variant-numeric: tabular-nums">$50</text>
+<text x="840.0" y="699.5" font-size="9.5" fill="#8a8880" text-anchor="end" font-weight="normal" style="font-variant-numeric: tabular-nums">RPM, $ per 1,000 views (log scale)</text>
+<text x="28.0" y="211.5" font-size="11" fill="#52514e" text-anchor="start" font-weight="600" style="font-variant-numeric: tabular-nums">business</text>
+<line x1="577.6" y1="221.9" x2="693.6" y2="221.9" stroke="#1f5c4c" stroke-width="2.6" stroke-linecap="butt"/>
+<circle cx="565.1" cy="207.5" r="3.6" fill="#c0503e" fill-opacity="0.75" stroke="#fcfcfb" stroke-width="1"/>
+<line x1="28" y1="227.5" x2="840" y2="227.5" stroke="#f0efe9"/>
+<text x="28.0" y="251.5" font-size="11" fill="#52514e" text-anchor="start" font-weight="600" style="font-variant-numeric: tabular-nums">finance</text>
+<line x1="613.0" y1="255.5" x2="675.8" y2="255.5" stroke="#447769" stroke-width="2.6" stroke-linecap="butt"/>
+<line x1="577.6" y1="258.7" x2="671.9" y2="258.7" stroke="#31695a" stroke-width="2.6" stroke-linecap="butt"/>
+<line x1="606.7" y1="261.9" x2="736.0" y2="261.9" stroke="#1f5c4c" stroke-width="2.6" stroke-linecap="butt"/>
+<line x1="28" y1="267.5" x2="840" y2="267.5" stroke="#f0efe9"/>
+<text x="28.0" y="291.5" font-size="11" fill="#52514e" text-anchor="start" font-weight="600" style="font-variant-numeric: tabular-nums">health</text>
+<line x1="502.7" y1="298.7" x2="550.6" y2="298.7" stroke="#31695a" stroke-width="2.6" stroke-linecap="butt"/>
+<line x1="502.7" y1="301.9" x2="624.9" y2="301.9" stroke="#1f5c4c" stroke-width="2.6" stroke-linecap="butt"/>
+<line x1="28" y1="307.5" x2="840" y2="307.5" stroke="#f0efe9"/>
+<text x="28.0" y="331.5" font-size="11" fill="#52514e" text-anchor="start" font-weight="600" style="font-variant-numeric: tabular-nums">tech</text>
+<line x1="487.3" y1="322.7" x2="502.7" y2="322.7" stroke="#8fada4" stroke-width="2.6" stroke-linecap="butt"/>
+<line x1="516.4" y1="325.9" x2="540.1" y2="325.9" stroke="#7c9f95" stroke-width="2.6" stroke-linecap="butt"/>
+<line x1="550.6" y1="329.1" x2="577.6" y2="329.1" stroke="#699286" stroke-width="2.6" stroke-linecap="butt"/>
+<line x1="449.9" y1="335.5" x2="560.2" y2="335.5" stroke="#447769" stroke-width="2.6" stroke-linecap="butt"/>
+<line x1="487.3" y1="338.7" x2="600.0" y2="338.7" stroke="#31695a" stroke-width="2.6" stroke-linecap="butt"/>
+<line x1="540.1" y1="341.9" x2="659.5" y2="341.9" stroke="#1f5c4c" stroke-width="2.6" stroke-linecap="butt"/>
+<circle cx="532.8" cy="327.5" r="3.6" fill="#c0503e" fill-opacity="0.75" stroke="#fcfcfb" stroke-width="1"/>
+<circle cx="473.6" cy="327.5" r="3.6" fill="#c0503e" fill-opacity="0.75" stroke="#fcfcfb" stroke-width="1"/>
+<line x1="28" y1="347.5" x2="840" y2="347.5" stroke="#f0efe9"/>
+<text x="28.0" y="371.5" font-size="11" fill="#52514e" text-anchor="start" font-weight="600" style="font-variant-numeric: tabular-nums">education</text>
+<line x1="395.6" y1="362.7" x2="398.6" y2="362.7" stroke="#8fada4" stroke-width="2.6" stroke-linecap="butt"/>
+<line x1="395.6" y1="365.9" x2="398.6" y2="365.9" stroke="#7c9f95" stroke-width="2.6" stroke-linecap="butt"/>
+<line x1="516.4" y1="375.5" x2="560.2" y2="375.5" stroke="#447769" stroke-width="2.6" stroke-linecap="butt"/>
+<line x1="569.2" y1="378.7" x2="600.0" y2="378.7" stroke="#31695a" stroke-width="2.6" stroke-linecap="butt"/>
+<line x1="487.3" y1="381.9" x2="613.0" y2="381.9" stroke="#1f5c4c" stroke-width="2.6" stroke-linecap="butt"/>
+<circle cx="412.4" cy="367.5" r="3.6" fill="#c0503e" fill-opacity="0.75" stroke="#fcfcfb" stroke-width="1"/>
+<line x1="28" y1="387.5" x2="840" y2="387.5" stroke="#f0efe9"/>
+<text x="28.0" y="411.5" font-size="11" fill="#52514e" text-anchor="start" font-weight="600" style="font-variant-numeric: tabular-nums">travel</text>
+<line x1="502.7" y1="418.7" x2="540.1" y2="418.7" stroke="#31695a" stroke-width="2.6" stroke-linecap="butt"/>
+<line x1="397.1" y1="421.9" x2="516.4" y2="421.9" stroke="#1f5c4c" stroke-width="2.6" stroke-linecap="butt"/>
+<line x1="28" y1="427.5" x2="840" y2="427.5" stroke="#f0efe9"/>
+<text x="28.0" y="451.5" font-size="11" fill="#52514e" text-anchor="start" font-weight="600" style="font-variant-numeric: tabular-nums">beauty</text>
+<line x1="397.1" y1="458.7" x2="550.6" y2="458.7" stroke="#31695a" stroke-width="2.6" stroke-linecap="butt"/>
+<line x1="397.1" y1="461.9" x2="550.6" y2="461.9" stroke="#1f5c4c" stroke-width="2.6" stroke-linecap="butt"/>
+<line x1="28" y1="467.5" x2="840" y2="467.5" stroke="#f0efe9"/>
+<text x="28.0" y="491.5" font-size="11" fill="#52514e" text-anchor="start" font-weight="600" style="font-variant-numeric: tabular-nums">lifestyle</text>
+<line x1="514.9" y1="482.7" x2="517.9" y2="482.7" stroke="#8fada4" stroke-width="2.6" stroke-linecap="butt"/>
+<line x1="448.4" y1="485.9" x2="451.4" y2="485.9" stroke="#7c9f95" stroke-width="2.6" stroke-linecap="butt"/>
+<circle cx="162.4" cy="487.5" r="3.6" fill="#c0503e" fill-opacity="0.75" stroke="#fcfcfb" stroke-width="1"/>
+<line x1="28" y1="507.5" x2="840" y2="507.5" stroke="#f0efe9"/>
+<text x="28.0" y="531.5" font-size="11" fill="#52514e" text-anchor="start" font-weight="600" style="font-variant-numeric: tabular-nums">food</text>
+<line x1="397.1" y1="541.9" x2="528.8" y2="541.9" stroke="#1f5c4c" stroke-width="2.6" stroke-linecap="butt"/>
+<line x1="28" y1="547.5" x2="840" y2="547.5" stroke="#f0efe9"/>
+<text x="28.0" y="571.5" font-size="11" fill="#52514e" text-anchor="start" font-weight="600" style="font-variant-numeric: tabular-nums">gaming</text>
+<line x1="426.1" y1="575.5" x2="469.9" y2="575.5" stroke="#447769" stroke-width="2.6" stroke-linecap="butt"/>
+<line x1="469.9" y1="578.7" x2="502.7" y2="578.7" stroke="#31695a" stroke-width="2.6" stroke-linecap="butt"/>
+<line x1="397.1" y1="581.9" x2="502.7" y2="581.9" stroke="#1f5c4c" stroke-width="2.6" stroke-linecap="butt"/>
+<line x1="28" y1="587.5" x2="840" y2="587.5" stroke="#f0efe9"/>
+<text x="28.0" y="611.5" font-size="11" fill="#52514e" text-anchor="start" font-weight="600" style="font-variant-numeric: tabular-nums">entertainment</text>
+<line x1="215.0" y1="596.3" x2="218.0" y2="596.3" stroke="#b4c8c1" stroke-width="2.6" stroke-linecap="butt"/>
+<line x1="305.3" y1="599.5" x2="308.3" y2="599.5" stroke="#a1bab2" stroke-width="2.6" stroke-linecap="butt"/>
+<line x1="395.6" y1="602.7" x2="398.6" y2="602.7" stroke="#8fada4" stroke-width="2.6" stroke-linecap="butt"/>
+<line x1="395.6" y1="605.9" x2="398.6" y2="605.9" stroke="#7c9f95" stroke-width="2.6" stroke-linecap="butt"/>
+<line x1="358.1" y1="609.1" x2="361.1" y2="609.1" stroke="#699286" stroke-width="2.6" stroke-linecap="butt"/>
+<line x1="305.3" y1="612.3" x2="308.3" y2="612.3" stroke="#578478" stroke-width="2.6" stroke-linecap="butt"/>
+<line x1="305.3" y1="615.5" x2="308.3" y2="615.5" stroke="#447769" stroke-width="2.6" stroke-linecap="butt"/>
+<line x1="306.8" y1="618.7" x2="359.6" y2="618.7" stroke="#31695a" stroke-width="2.6" stroke-linecap="butt"/>
+<line x1="306.8" y1="621.9" x2="449.9" y2="621.9" stroke="#1f5c4c" stroke-width="2.6" stroke-linecap="butt"/>
+<circle cx="274.4" cy="607.5" r="3.6" fill="#c0503e" fill-opacity="0.75" stroke="#fcfcfb" stroke-width="1"/>
+<circle cx="305.5" cy="607.5" r="3.6" fill="#c0503e" fill-opacity="0.75" stroke="#fcfcfb" stroke-width="1"/>
+<circle cx="306.8" cy="607.5" r="3.6" fill="#c0503e" fill-opacity="0.75" stroke="#fcfcfb" stroke-width="1"/>
+<circle cx="308.1" cy="607.5" r="3.6" fill="#c0503e" fill-opacity="0.75" stroke="#fcfcfb" stroke-width="1"/>
+<circle cx="276.1" cy="607.5" r="3.6" fill="#c0503e" fill-opacity="0.75" stroke="#fcfcfb" stroke-width="1"/>
+<circle cx="254.6" cy="607.5" r="3.6" fill="#c0503e" fill-opacity="0.75" stroke="#fcfcfb" stroke-width="1"/>
+<circle cx="219.1" cy="607.5" r="3.6" fill="#c0503e" fill-opacity="0.75" stroke="#fcfcfb" stroke-width="1"/>
+<circle cx="221.6" cy="607.5" r="3.6" fill="#c0503e" fill-opacity="0.75" stroke="#fcfcfb" stroke-width="1"/>
+<line x1="28" y1="627.5" x2="840" y2="627.5" stroke="#f0efe9"/>
+<text x="28.0" y="651.5" font-size="11" fill="#52514e" text-anchor="start" font-weight="normal" style="font-variant-numeric: tabular-nums">all</text>
+<line x1="449.9" y1="633.1" x2="469.9" y2="633.1" stroke="#c7d6d0" stroke-width="2.6" stroke-linecap="butt"/>
+<line x1="449.9" y1="652.3" x2="487.3" y2="652.3" stroke="#578478" stroke-width="2.6" stroke-linecap="butt"/>
+<line x1="449.9" y1="655.5" x2="487.3" y2="655.5" stroke="#447769" stroke-width="2.6" stroke-linecap="butt"/>
+<text x="28.0" y="719.5" font-size="8.5" fill="#8a8880" text-anchor="start" font-weight="700" letter-spacing="0.9" style="font-variant-numeric: tabular-nums">YEAR</text>
+<line x1="72.0" y1="715.5" x2="90.0" y2="715.5" stroke="#c7d6d0" stroke-width="5"/>
+<text x="94.0" y="719.5" font-size="9.5" fill="#8a8880" text-anchor="start" font-weight="normal" style="font-variant-numeric: tabular-nums">2017</text>
+<line x1="124.0" y1="715.5" x2="142.0" y2="715.5" stroke="#b4c8c1" stroke-width="5"/>
+<text x="146.0" y="719.5" font-size="9.5" fill="#8a8880" text-anchor="start" font-weight="normal" style="font-variant-numeric: tabular-nums">2018</text>
+<line x1="176.0" y1="715.5" x2="194.0" y2="715.5" stroke="#a1bab2" stroke-width="5"/>
+<text x="198.0" y="719.5" font-size="9.5" fill="#8a8880" text-anchor="start" font-weight="normal" style="font-variant-numeric: tabular-nums">2019</text>
+<line x1="228.0" y1="715.5" x2="246.0" y2="715.5" stroke="#8fada4" stroke-width="5"/>
+<text x="250.0" y="719.5" font-size="9.5" fill="#8a8880" text-anchor="start" font-weight="normal" style="font-variant-numeric: tabular-nums">2020</text>
+<line x1="280.0" y1="715.5" x2="298.0" y2="715.5" stroke="#7c9f95" stroke-width="5"/>
+<text x="302.0" y="719.5" font-size="9.5" fill="#8a8880" text-anchor="start" font-weight="normal" style="font-variant-numeric: tabular-nums">2021</text>
+<line x1="332.0" y1="715.5" x2="350.0" y2="715.5" stroke="#699286" stroke-width="5"/>
+<text x="354.0" y="719.5" font-size="9.5" fill="#8a8880" text-anchor="start" font-weight="normal" style="font-variant-numeric: tabular-nums">2022</text>
+<line x1="384.0" y1="715.5" x2="402.0" y2="715.5" stroke="#578478" stroke-width="5"/>
+<text x="406.0" y="719.5" font-size="9.5" fill="#8a8880" text-anchor="start" font-weight="normal" style="font-variant-numeric: tabular-nums">2023</text>
+<line x1="436.0" y1="715.5" x2="454.0" y2="715.5" stroke="#447769" stroke-width="5"/>
+<text x="458.0" y="719.5" font-size="9.5" fill="#8a8880" text-anchor="start" font-weight="normal" style="font-variant-numeric: tabular-nums">2024</text>
+<line x1="488.0" y1="715.5" x2="506.0" y2="715.5" stroke="#31695a" stroke-width="5"/>
+<text x="510.0" y="719.5" font-size="9.5" fill="#8a8880" text-anchor="start" font-weight="normal" style="font-variant-numeric: tabular-nums">2025</text>
+<line x1="540.0" y1="715.5" x2="558.0" y2="715.5" stroke="#1f5c4c" stroke-width="5"/>
+<text x="562.0" y="719.5" font-size="9.5" fill="#8a8880" text-anchor="start" font-weight="normal" style="font-variant-numeric: tabular-nums">2026</text>
+<circle cx="602.0" cy="715.5" r="3.6" fill="#c0503e" fill-opacity="0.75"/>
+<text x="610.0" y="719.5" font-size="9.5" fill="#8a8880" text-anchor="start" font-weight="normal" style="font-variant-numeric: tabular-nums">creator's own disclosure</text>
+<text x="28.0" y="749.5" fill="none" stroke="#fcfcfb" stroke-width="3.4" stroke-linejoin="round" font-size="12.5" text-anchor="start" font-weight="600" style="font-variant-numeric: tabular-nums">Choose between the ends of the ladder by niche; inside the middle, fix the channel instead.</text>
+<text x="28.0" y="749.5" fill="#0b0b0b" font-size="12.5" text-anchor="start" font-weight="600" style="font-variant-numeric: tabular-nums">Choose between the ends of the ladder by niche; inside the middle, fix the channel instead.</text>
+<text x="28.0" y="768.5" font-size="10.5" fill="#8a8880" text-anchor="start" font-weight="normal" style="font-variant-numeric: tabular-nums">Of 31 niche pairs seen in two or more years, only these swap order: beauty, education, health, lifestyle, tech, travel. Ranking</text>
+<text x="28.0" y="781.5" font-size="10.5" fill="#8a8880" text-anchor="start" font-weight="normal" style="font-variant-numeric: tabular-nums">inside that band is noise; the ends are not. Disclosures land more than 2x outside their niche's bars: Shelby Church (lifestyle,</text>
+<text x="28.0" y="794.5" font-size="10.5" fill="#8a8880" text-anchor="start" font-weight="normal" style="font-variant-numeric: tabular-nums">2020: $0.33). The reasons on record are audience country, kids-classified views and video length, and none of them is the niche.</text>
+<text x="28.0" y="807.5" font-size="10.5" fill="#8a8880" text-anchor="start" font-weight="normal" style="font-variant-numeric: tabular-nums">A missing bar means no evidence that year, not a low rate.</text>
+<line x1="28" y1="832.0" x2="852" y2="832.0" stroke="#e3e2db"/>
+<text x="28.0" y="848.0" font-size="10" fill="#8a8880" text-anchor="start" font-weight="normal" style="font-variant-numeric: tabular-nums">Bars: maintainer_estimate rows in &lt;year&gt;/benchmarks.csv, triangulated against sources whose terms forbid republishing (method in</text>
+<text x="28.0" y="861.0" font-size="10" fill="#8a8880" text-anchor="start" font-weight="normal" style="font-variant-numeric: tabular-nums">examples/build_index.py). Dots: creator_report rows in &lt;year&gt;/creators.csv, each linked to the creator's own post.</text>
+</svg>

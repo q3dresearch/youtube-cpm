@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+
+# Sources whose terms forbid redistribution. Read locally to set our own ranges;
+# never committed, never named in a published row.
+triangulation/

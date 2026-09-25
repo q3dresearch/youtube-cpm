@@ -1,0 +1,31 @@
+# Data licence — what may appear here, and why most sources never do
+
+**The rule: a value is published here only if we are allowed to publish it.** That leaves
+four kinds of row:
+
+| `basis` | what it is | cited to |
+| --- | --- | --- |
+| `maintainer_estimate` | **our own index.** A range we set for a niche and year after reading several sources we are not allowed to republish. Trust us or don't. | this repository, plus the number of private sources it was triangulated from |
+| `creator_report` | a creator showing their own YouTube Studio / AdSense numbers in public | the creator's own video, post or screenshot, never a media write-up of it |
+| `open_source` | a distributor whose licence allows redistribution (CC-BY, MIT, public domain) | that distributor, under its licence |
+| `platform_report` | YouTube's or Alphabet's own public statements and filings | the filing or official post |
+
+**Sources whose terms restrict redistribution** (almost all rate blogs, SEO calculators,
+ad-tool vendors and paywalled media) **are never named or quoted here.** They are read
+locally, from a folder git ignores, and used only to decide where our own ranges sit. A
+`maintainer_estimate` row reports how many of them it was checked against, and no more.
+
+## What this repository grants
+
+| what | licence |
+| --- | --- |
+| code in `examples/` | MIT, see [LICENSE](LICENSE) |
+| `maintainer_estimate` rows, the schema, notes and charts | CC-BY-4.0, attribute q3dresearch/youtube-cpm |
+| `creator_report`, `open_source`, `platform_report` values | the original holder's. Cite the row's `source_url` |
+
+## If you quote a number from here
+
+1. For anything other than `maintainer_estimate`, cite the row's `source_url` as the origin.
+2. Say which `basis` it is. A `creator_report` is one channel in one period. A
+   `maintainer_estimate` is a judgement, not a measurement.
+3. This file records intent, not legal advice.

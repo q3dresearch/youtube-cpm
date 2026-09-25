@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this table, cite it -- and cite the source_url of each row you quote."
+type: dataset
+title: "YouTube RPM, CPM and brand CPV by niche and year (youtube-cpm)"
+abstract: >-
+  A hand-maintained fact table of YouTube creator earnings rates: our own niche RPM
+  index by year (triangulated privately against sources we may not republish), creators' own
+  disclosed YouTube Studio numbers, and yearly macro series (YouTube ad revenue,
+  partner-programme size, advertiser CPM, ad CTR). One row per claim, each with its
+  own source link and date. It records who said what, when. It is not ground truth.
+authors:
+  - name: "q3dresearch"
+    website: "https://github.com/q3dresearch"
+keywords:
+  - youtube
+  - rpm
+  - cpm
+  - creator-economy
+  - dataset
