@@ -129,3 +129,39 @@ def main():
 
 if __name__ == "__main__":
     sys.exit(main())
+
+
+# ---- the q3d mark, behind every plate ------------------------------------------------
+# Embedded as a data URI, not linked: GitHub serves README SVGs through <img>, which will
+# not fetch anything the SVG references, so a linked logo would silently vanish.
+MARK = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "public", "qed",
+                    "qed-mark-light.png")
+MARK_OPACITY = 0.06         # "pseudo-transparent": visible on a second look, never on the first
+_mark_cache = {}
+
+
+def _mark_uri(px=360):
+    if px not in _mark_cache:
+        import base64
+        import io
+        from PIL import Image
+        im = Image.open(MARK)
+        im = im.crop(im.getchannel("A").getbbox())      # trim the transparent margin
+        im.thumbnail((px, px))
+        buf = io.BytesIO()
+        im.save(buf, "PNG", optimize=True)
+        _mark_cache[px] = (im.size, base64.b64encode(buf.getvalue()).decode())
+    return _mark_cache[px]
+
+
+def stamp(svg):
+    """Put the mark centred behind the plate, just above the background rect."""
+    m = re.search(r'<svg[^>]*width="(\d+)" height="(\d+)"', svg)
+    w, h = int(m.group(1)), int(m.group(2))
+    (iw, ih), b64 = _mark_uri()
+    scale = 0.55 * h / ih                              # about half the plate's height
+    dw, dh = iw * scale, ih * scale
+    img = (f'<image x="{(w-dw)/2:.1f}" y="{(h-dh)/2:.1f}" width="{dw:.1f}" height="{dh:.1f}" '
+           f'opacity="{MARK_OPACITY}" href="data:image/png;base64,{b64}"/>')
+    bg = re.search(r"<rect [^>]*/>", svg)
+    return svg[:bg.end()] + "\n" + img + svg[bg.end():]

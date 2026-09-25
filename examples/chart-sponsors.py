@@ -137,7 +137,7 @@ def main():
     svg = ("\n".join(s).replace('height="10"', f'height="{H}"')
                        .replace(f'viewBox="0 0 {W} 10"', f'viewBox="0 0 {W} {H}"'))
     out = pathlib.Path(__file__).parent / "charts" / "sponsors.svg"
-    out.write_text(svg, encoding="utf-8")
+    out.write_text(plate.stamp(svg), encoding="utf-8")
     print(f"  wrote {out.name}: {title}")
     for r in rows:
         print(f"   {r['n']:<14} both {r['both']:>8.0f}  alone {r['alone']:>8.0f}  share {r['share']:.0%}")

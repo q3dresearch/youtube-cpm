@@ -133,7 +133,7 @@ def main():
     svg = ("\n".join(s).replace('height="10"', f'height="{H}"')
                        .replace(f'viewBox="0 0 {W} 10"', f'viewBox="0 0 {W} {H}"'))
     out = pathlib.Path(__file__).parent / "charts" / "seasonality.svg"
-    out.write_text(svg, encoding="utf-8")
+    out.write_text(plate.stamp(svg), encoding="utf-8")
     print(f"  wrote {out.name}: {title}")
     return 0
 
